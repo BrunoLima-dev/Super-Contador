@@ -8,7 +8,7 @@ function contar () {
 
         /**Tratamento de Erros */
     if(ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
-        res.innerHTML = '<strong><h1>Impossivel Contar</h1></strong> \u{1F635}'
+        res.innerHTML = '<strong><h2>Impossivel Contar</h2></strong> \u{1F635}'
         window.alert('[ERRO] faltam dados!')
     }else {
         res.innerHTML = '<strong>Contando</strong>: '
