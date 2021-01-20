@@ -8,6 +8,7 @@ function contar () {
 
         /**Tratamento de Erros */
     if(ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+        res.innerHTML = '<strong><h1>Impossivel Contar</h1></strong> \u{1F635}'
         window.alert('[ERRO] faltam dados!')
     }else {
         res.innerHTML = '<strong>Contando</strong>: '
@@ -30,8 +31,10 @@ function contar () {
             for (let c = i; c >= f; c -= p) {
                 res.innerHTML += ` ${c} \u{1f449}`
             }
+             
         }
+            res.innerHTML += `\u{1F3C1}`
         
     }
-    res.innerHTML += `\u{1F3C1}` 
+    
 }
