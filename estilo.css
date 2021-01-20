@@ -1,0 +1,43 @@
+body {
+    background: rgba(57, 136, 146, 0.918);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+div {
+    margin: 10px;
+}
+
+h1 {   
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.445) /*Sombreamento*/
+
+}
+
+p {
+    color: rgb(10, 12, 2);
+    font-style: oblique;
+    margin-left: 10px;
+}
+
+#res {
+    color: rgb(9, 24, 10);
+    font-style: oblique;
+    margin-left: 15px;
+}
+
+section {
+    background-image: url(contador2.jpg);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.445) /*Sombreamento*/
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
