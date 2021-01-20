@@ -17,10 +17,13 @@ function contar () {
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
-
-        /**contador vai começar no inicio e em quando o contador for menor ou igual ao fim,
-         *  o contador vai recebe ele mesmo mais o passo */
+        if (p <= 0){
+            window.alert('Passo Invalido! Considerando PASSO 1')
+            p = 1
+        }        
         if (i < f){
+             /**contador vai começar no inicio e em quando o contador for menor ou igual ao fim,
+         *  o contador vai recebe ele mesmo mais o passo */
             //CONTAGEM CRESCENTE
             for (let c = i; c <= f; c += p) {
                 res.innerHTML += `${c} \u{1F449}`
